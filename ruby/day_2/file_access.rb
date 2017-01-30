@@ -48,9 +48,11 @@ puts "rJMTest=#{rJMTest}"
 
 puts ""
 puts "Can I iterate over a hash?"
-puts "TODO"
+finalHash.each_pair { |key, value| puts "Key #{key} has the value #{value}" }
 
 puts ""
 puts "What data structures do arrays support"
-puts "TODO"
+#https://www.sitepoint.com/guide-ruby-collections-part-arrays/
+puts "push/pop = stack"
+puts "push/shift = queue"
 
