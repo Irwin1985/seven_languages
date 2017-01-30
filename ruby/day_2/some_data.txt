@@ -1,0 +1,9 @@
+RED
+Green
+BLUE
+Purple
+Some other line
+1
+2
+3
+123
