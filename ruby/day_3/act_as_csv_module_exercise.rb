@@ -22,10 +22,14 @@ module ActsAsCsv
 			@csv_contents = []
 			filename = self.class.to_s.downcase + '.txt'
 			file = File.new(filename)
-			@headers = file.gets.chomp.split(', ')
+			@headers = []
+			file.gets.chomp.split(',').each { |e| @headers.push(e.strip.downcase) }
 
 			file.each do |row|
-				@csv_contents << RubyCsvRow.new(row.chomp.split(', '))
+				row_arr = row.chomp.split(',')
+				row_hash = {}
+				@headers.each_with_index { |field, index| row_hash[field]=row_arr[index] }
+				@csv_contents << RubyCsvRow.new(row_hash)
 			end
 		end
 
@@ -44,7 +48,7 @@ module ActsAsCsv
 			@data = data
 		end
 		def method_missing(argname)
-			"TODO implement method_missing to get csv row for #{argname} from #{@data}"
+			"#{@data[argname.to_s.strip.downcase]}"
 		end
 	end
 end
@@ -59,8 +63,8 @@ class RubyCsvRow
 end
 
 m = RubyCsv.new
-puts m.headers.inspect
-puts m.csv_contents.inspect
+#puts m.headers.inspect
+#puts m.csv_contents.inspect
 ##puts "Methods:#{m.methods(true)}"
 
 m.each {|row| puts row.title2}
