@@ -1,5 +1,7 @@
 #!/usr/bin/ruby -w
 
+##Test update
+
 #exmplae commands to run this program
 #ruby grep.rb some_data.txt other
 #ruby grep.rb some_data.txt "^other"
