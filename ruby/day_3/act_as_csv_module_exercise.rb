@@ -9,9 +9,7 @@ module ActsAsCsv
 		def acts_as_csv
 			include InstanceMethods
 		end
-	end
 
-	module ClassMethods
 		def acts_as_csvrow
 			include RowMethods
 		end
