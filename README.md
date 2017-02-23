@@ -14,3 +14,5 @@ https://www.youtube.com/channel/UC9-y-6csu5WGm29I7JiwpnA
 
 https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript
 
+These look interesting
+
