@@ -6,3 +6,11 @@ https://www.amazon.co.uk/gp/product/193435659X/ref=oh_aui_detailpage_o03_s00?ie=
 
 Amazon link to read book:
 https://read.amazon.co.uk/kp/embed?asin=B00AYQNR46&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_66jIyb8RV6ART
+
+
+# Intresting Links
+https://www.youtube.com/channel/UC9-y-6csu5WGm29I7JiwpnA
+
+
+https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript
+
