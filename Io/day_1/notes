@@ -1,0 +1,32 @@
+Seems I can cheat
+http://www.nickknowlson.com/blog/2011/12/18/seven-languages-week-2-day-1/
+
+
+Io> 1 + 1
+==> 2
+Io> 1 + "one"
+
+  Exception: argument 0 to method '+' must be a Number, not a 'Sequence'
+  ---------
+  message '+' in 'Command Line' on line 1
+
+IO seems to be strongly typed
+
+
+Is 0 true or false?
+Io> 0 == false
+==> false
+Io> 0 == true
+==> false
+
+0 is neither true nor false
+Same for nil and ""
+
+# <prototype> slotNames
+
+=  reassigns a slot
+:= creates or reassigns a slot 
+::= creates or reassigns a slot and creates an settor method set
+
+
+
