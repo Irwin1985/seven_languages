@@ -11,6 +11,6 @@ postOffice messageArgs := method(call message arguments)
 postOffice messageName := method(call message name)
 
 postOffice messageArgs("one", 2, :three)
-postOFfice messageName
+postOffice messageName
 
 
