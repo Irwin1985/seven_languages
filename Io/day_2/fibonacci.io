@@ -12,7 +12,7 @@ try := method(input_value, expected_result,
 	)
 )
 
-#Loop Method
+#recursive Method
 fib := method(a,
 	if ( (a<3) , 1,
 	two_prev := fib(a-2)
@@ -28,7 +28,7 @@ try(4,3)
 try(5,5)
 try(6,8)
 try(7,13)
-##try(40, 102334155)
+try(40, 102334155)
 
 "" println
 "" println

@@ -1,0 +1,13 @@
+http://erlang.org/doc/apps/stdlib/index.html
+
+Run earling 
+erl
+
+To run math1:
+c(math1).
+math1:factorial(45).
+
+erl -man lists
+help().
+
+split_string:rjm_fn("RR RGG GRGT R").
