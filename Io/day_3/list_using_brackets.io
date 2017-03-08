@@ -2,7 +2,14 @@
 
 
 squareBrackets := method( call message arguments )
-List squareBrackets := method(index, value, if(value == nil, at(index), atPut(index, value)))
+List squareBrackets := method(
+	index, 
+	value, 
+	if(value == nil, 
+		at(index), 
+		atPut(index, value)
+	)
+)
 
 "Making empty list" println
 l := []
