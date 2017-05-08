@@ -1,0 +1,8 @@
+
+
+class TicTacToeBoard() {
+  println("a new TicTacToeBoard is being setup");
+  var board = Array(0,0,0,0,0,0,0,0,0);
+  
+  
+}

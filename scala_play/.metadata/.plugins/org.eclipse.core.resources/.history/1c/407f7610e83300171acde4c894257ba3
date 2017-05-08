@@ -1,0 +1,11 @@
+
+
+object MyFirstApp extends App {
+  override def main(args: Array[String]): Unit = {
+    
+    val b = new TicTacToeBoard()
+    
+    println("Hello, world!")
+    b.printBoard();
+  } 
+}

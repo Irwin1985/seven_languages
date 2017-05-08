@@ -1,0 +1,63 @@
+
+
+class TicTacToeBoard() {
+  println("a new TicTacToeBoard is being setup");
+  var board = Array(2,1,2,0,2,0,2,2,1);
+  
+  def getVal(v: Int): String = {
+    if (v==0) return "_"; 
+    if (v==1) return "X";
+    return "O";
+  };
+  
+  //row and col are 0 based
+  def getPositionValue(row: Int, col: Int): Int = {
+    return board((row*3)+col);
+  }
+  
+  def printBoard() {
+    for ( row <- (0 to 2)) {
+      for ( col <- (0 to 2)) {
+        print(getVal(getPositionValue(row,col)));  
+        if ( col < 2) print("|");
+      };
+      println("");
+    };
+  };
+  
+  def getWinner(): String = {
+    // check rows
+    for ( row <- (0 to 2)) {
+      if (getPositionValue(row,0)!=0) {
+        if (getPositionValue(row,0)==getPositionValue(row,1)) {
+          if (getPositionValue(row,0)==getPositionValue(row,2)) {
+            return getVal(getPositionValue(row,0));
+          }
+        }
+      }
+    }
+    
+    // check cols
+    for ( col <- (0 to 2)) {
+      if (getPositionValue(0,col)!=0) {
+        if (getPositionValue(0,col)==getPositionValue(1,col)) {
+          if (getPositionValue(0,col)==getPositionValue(2,col)) {
+            return getVal(getPositionValue(0,col));
+          }
+        }
+      }
+    }
+    
+    // check diagonals
+    if (getPositionValue(0,0)!=0) {
+      if (getPositionValue(0,0)==getPositionValue(1,1)) {
+        if (getPositionValue(0,0)==getPositionValue(2,2)) {
+          return getVal(getPositionValue(0,0));
+        }
+      }
+    }
+    
+    
+    return "_"; //No winner
+  }
+}

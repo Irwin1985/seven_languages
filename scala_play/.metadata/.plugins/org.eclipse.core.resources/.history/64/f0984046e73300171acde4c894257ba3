@@ -1,0 +1,18 @@
+
+
+class TicTacToeBoard() {
+  println("a new TicTacToeBoard is being setup");
+  var board = Array(0,0,0,0,0,0,0,0,0);
+  
+  def getVal(v: Int): String = {
+    if (v==0) return "_"; 
+    if (v==1) return "X";
+    return "O";
+  };
+  
+  def printBoard() {
+    println("_|_|_");
+    println("_|_|_");
+    println("_|_|_");
+  };
+}

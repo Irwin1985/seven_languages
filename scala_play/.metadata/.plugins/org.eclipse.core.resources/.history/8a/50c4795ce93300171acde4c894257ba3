@@ -1,0 +1,49 @@
+
+
+class TicTacToeBoard() {
+  println("a new TicTacToeBoard is being setup");
+  var board = Array(1,1,1,0,0,0,0,0,0);
+  
+  def getVal(v: Int): String = {
+    if (v==0) return "_"; 
+    if (v==1) return "X";
+    return "O";
+  };
+  
+  //row and col are 0 based
+  def getPositionValue(row: Int, col: Int): Int = {
+    return board((row*3)+col);
+  }
+  
+  def printBoard() {
+    var v = 0;
+    println(getVal(board(v)) + "|" + getVal(board(v+1)) + "|" + getVal(board(v+2)));
+    v += 3;
+    println(getVal(board(v)) + "|" + getVal(board(v+1)) + "|" + getVal(board(v+2)));
+    v += 3;
+    println(getVal(board(v)) + "|" + getVal(board(v+1)) + "|" + getVal(board(v+2)));
+  };
+  
+  def getWinner(): String = {
+    // check rows
+    for ( row <- (1 to 3)) {
+      println("row:" + row);
+      
+      if (board(row)==board(row+1)) {
+        if (board(row)==board(row+2)) {
+          if (board(row)!=0) {
+            return getVal(board(row));
+          };
+        };
+      };
+      
+    }
+    
+    // check cols
+    
+    // check diagonals
+    
+    
+    return "_"; //No winner
+  }
+}

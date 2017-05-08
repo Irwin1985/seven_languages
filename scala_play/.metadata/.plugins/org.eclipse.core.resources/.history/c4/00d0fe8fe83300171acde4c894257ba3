@@ -1,0 +1,32 @@
+
+
+class TicTacToeBoard() {
+  println("a new TicTacToeBoard is being setup");
+  var board = Array(0,0,0,0,0,0,0,0,0);
+  
+  def getVal(v: Int): String = {
+    if (v==0) return "_"; 
+    if (v==1) return "X";
+    return "O";
+  };
+  
+  def printBoard() {
+    var v = 0;
+    println(getVal(board(v)) + "|" + getVal(board(v+1)) + "|" + getVal(board(v+2)));
+    v += 3;
+    println(getVal(board(v)) + "|" + getVal(board(v+1)) + "|" + getVal(board(v+2)));
+    v += 3;
+    println(getVal(board(v)) + "|" + getVal(board(v+1)) + "|" + getVal(board(v+2)));
+  };
+  
+  def getWinner(): String {
+    // check rows
+    for (int c=0;c<3;c++) {
+      println("AA");
+    }
+    
+    // check cols
+    
+    // check diagonals
+  }
+}
