@@ -1,0 +1,11 @@
+object currying {
+	def add(a: Int)(b: Int) = a + b
+	
+	val onePlusFive = add(1)(5) 
+	
+	val addFour = add(4)_ 
+	
+	val twoPlusFour = addFour(2) 
+	
+	assert(onePlusFive == twoPlusFour) 
+}

@@ -1,0 +1,18 @@
+
+
+trait Censor {
+  
+  
+  
+  def censor(content: String) : String = {
+    "TODO"
+  }
+}
+
+class Book( val content: String ) extends Censor {
+
+    def getContent() = this.content
+
+    def getCensoredContent() = this.censor( this.getContent )
+
+}

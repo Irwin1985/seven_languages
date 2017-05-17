@@ -1,0 +1,12 @@
+
+
+trait Censor {
+  
+  
+  
+  def censor(content: String) : String = {
+    "TODO"
+  }
+}
+
+

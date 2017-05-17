@@ -1,0 +1,13 @@
+object Day_2_total_size_of_strings {
+  println("Welcome to the Scala worksheet")       //> Welcome to the Scala worksheet
+  
+  //Use foldLeft to caculate total size of a list of strings
+  
+   var myList = List("DDE", "fdsd", "ddccsdgffff", "dfdsdfs")
+                                                  //> myList  : List[String] = List(DDE, fdsd, ddff, dfdsdfs)
+   var res = myList.foldLeft(0)(
+   	(running, item) => {
+   		running + item.length()
+   })                                             //> res  : Int = 18
+   
+}

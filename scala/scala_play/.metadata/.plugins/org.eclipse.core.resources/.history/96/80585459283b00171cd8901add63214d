@@ -1,0 +1,18 @@
+import scala.io.Source
+
+object filePlay {
+	val fileName = "/home/robert/otherGit/seven_languages/rjm/scala/scala_play/MyFirstScalaProject/BadWords.txt"
+                                                  
+  var censoredWords = Map[ String, String ]()
+  censoredWords = Source
+  		.fromFile(fileName )
+  		.getLines
+  		.toList
+  		.filter(_.count(_ == ',') == 1)
+  		.foldLeft(censoredWords) {
+  		  (censoredWords2, mappingLine) =>
+  		    (censoredWords2 + ("TODO"))
+  		}
+  		
+  
+}

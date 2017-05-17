@@ -1,0 +1,23 @@
+
+
+trait Censor {
+  
+  val censoredWords = Map(
+      "Shoot" -> "Pucky",
+      "Darn" -> "Beans"
+  )  
+  
+  def censor(content: String) : String = {
+    
+    censoredWords.foldLeft(content)(
+        (censoredContent, censoredWord) => {
+            censoredContent.replaceAll(
+                ("(?i)\\b" + censoredWord._1 + "\\b"),
+                censoredWord._2
+            )
+        }
+    )
+  }
+}
+
+

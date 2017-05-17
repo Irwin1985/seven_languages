@@ -1,0 +1,8 @@
+
+
+object Day2CensorApp extends App {
+  
+  
+    println("Start of Day2Censor App")
+  
+}

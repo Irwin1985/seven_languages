@@ -1,0 +1,21 @@
+
+
+trait Censor {
+  
+  
+  
+  def censor(content: String) : String = {
+    "TODO"
+  }
+}
+
+class Book( val content: String ) extends Censor {
+
+    // Define a generic getter for our content.
+    def getContent() = this.content
+
+    // Define a censored getter for our content. This will pass
+    // the content through our censor trait method.
+    def getCensoredContent() = this.censor( this.getContent )
+
+}
