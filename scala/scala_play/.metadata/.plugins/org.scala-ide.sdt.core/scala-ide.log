@@ -2200,3 +2200,74 @@ when weaving
 2017-05-17 18:46:15,092  WARN [Worker-54] - ScalaProject - Project MyFirstScalaProject runs on platform default installation.
 2017-05-17 18:46:32,667  WARN [Worker-58] - ScalaProject - Project MyFirstScalaProject has platform default sourceLevel.
 2017-05-17 18:46:32,667  WARN [Worker-58] - ScalaProject - Project MyFirstScalaProject runs on platform default installation.
+2017-05-18 13:46:15,214 ERROR [main] - System.err - [org.eclipse.jdt.launching] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.launching.JavaRuntime
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2017-05-18 13:46:16,049  WARN [main] - ScalaProject - Project MyFirstScalaProject has platform default sourceLevel.
+2017-05-18 13:46:16,049  WARN [main] - ScalaProject - Project MyFirstScalaProject runs on platform default installation.
+2017-05-18 13:46:16,075  WARN [main] - ScalaProject - Project MyFirstScalaProject has platform default sourceLevel.
+2017-05-18 13:46:16,075  WARN [main] - ScalaProject - Project MyFirstScalaProject runs on platform default installation.
+2017-05-18 13:46:18,603 ERROR [main] - System.err - [org.eclipse.jdt.debug.ui] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.debug.ui.actions.ToggleBreakpointAdapter
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2017-05-18 13:46:18,693 ERROR [main] - System.err - [org.eclipse.jdt.debug] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.debug.core.IJavaHotCodeReplaceListener
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2017-05-18 13:52:42,041  WARN [ModalContext] - ScalaProject - Project TempTest has platform default sourceLevel.
+2017-05-18 13:52:42,041  WARN [ModalContext] - ScalaProject - Project TempTest runs on platform default installation.
+2017-05-18 13:52:46,035  WARN [Worker-15] - ScalaProject - Project TempTest has platform default sourceLevel.
+2017-05-18 13:52:46,035  WARN [Worker-15] - ScalaProject - Project TempTest runs on platform default installation.
+2017-05-18 13:53:08,662  WARN [main] - ScalaProject - Project TempTest has platform default sourceLevel.
+2017-05-18 13:53:08,662  WARN [main] - ScalaProject - Project TempTest runs on platform default installation.
+2017-05-18 13:53:12,896  WARN [main] - ScalaProject - Project TempTest has platform default sourceLevel.
+2017-05-18 13:53:12,896  WARN [main] - ScalaProject - Project TempTest runs on platform default installation.
+2017-05-18 13:53:13,062  WARN [Worker-18] - ScalaProject - Project TempTest has platform default sourceLevel.
+2017-05-18 13:53:13,062  WARN [Worker-18] - ScalaProject - Project TempTest runs on platform default installation.
+2017-05-18 13:53:23,844  WARN [Worker-3] - ScalaProject - Project TempTest has platform default sourceLevel.
+2017-05-18 13:53:23,845  WARN [Worker-3] - ScalaProject - Project TempTest runs on platform default installation.
+2017-05-18 13:59:00,148  WARN [org.eclipse.jface.text.reconciler.MonoReconciler] - ScalaProject - Project MyFirstScalaProject has platform default sourceLevel.
+2017-05-18 13:59:00,149  WARN [org.eclipse.jface.text.reconciler.MonoReconciler] - ScalaProject - Project MyFirstScalaProject runs on platform default installation.
+2017-05-18 14:00:18,449  WARN [Worker-16] - ScalaProject - Project TempTest has platform default sourceLevel.
+2017-05-18 14:00:18,450  WARN [Worker-16] - ScalaProject - Project TempTest runs on platform default installation.
+2017-05-18 14:00:21,627  WARN [Worker-21] - ScalaProject - Project TempTest has platform default sourceLevel.
+2017-05-18 14:00:21,628  WARN [Worker-21] - ScalaProject - Project TempTest runs on platform default installation.
+2017-05-18 14:00:31,119  WARN [Worker-22] - ScalaProject - Project TempTest has platform default sourceLevel.
+2017-05-18 14:00:31,119  WARN [Worker-22] - ScalaProject - Project TempTest runs on platform default installation.
+2017-05-18 14:00:36,221  WARN [Worker-21] - ScalaProject - Project TempTest has platform default sourceLevel.
+2017-05-18 14:00:36,221  WARN [Worker-21] - ScalaProject - Project TempTest runs on platform default installation.
+2017-05-18 14:00:37,309  WARN [Worker-22] - ScalaProject - Project TempTest has platform default sourceLevel.
+2017-05-18 14:00:37,310  WARN [Worker-22] - ScalaProject - Project TempTest runs on platform default installation.
+2017-05-18 14:01:20,840  WARN [Worker-21] - ScalaProject - Project MyFirstScalaProject has platform default sourceLevel.
+2017-05-18 14:01:20,841  WARN [Worker-21] - ScalaProject - Project MyFirstScalaProject runs on platform default installation.
+2017-05-18 14:01:20,845  WARN [Worker-21] - ScalaProject - Project MyFirstScalaProject has platform default sourceLevel.
+2017-05-18 14:01:20,846  WARN [Worker-21] - ScalaProject - Project MyFirstScalaProject runs on platform default installation.
+2017-05-18 14:01:22,514  WARN [Worker-21] - ScalaProject - Project MyFirstScalaProject has platform default sourceLevel.
+2017-05-18 14:01:22,514  WARN [Worker-21] - ScalaProject - Project MyFirstScalaProject runs on platform default installation.
+2017-05-18 14:01:44,534  WARN [Worker-23] - ScalaProject - Project MyFirstScalaProject has platform default sourceLevel.
+2017-05-18 14:01:44,534  WARN [Worker-23] - ScalaProject - Project MyFirstScalaProject runs on platform default installation.
+2017-05-18 14:01:45,886  WARN [Worker-16] - ScalaProject - Project MyFirstScalaProject has platform default sourceLevel.
+2017-05-18 14:01:45,887  WARN [Worker-16] - ScalaProject - Project MyFirstScalaProject runs on platform default installation.
+2017-05-18 14:01:54,285  WARN [Worker-21] - ScalaProject - Project MyFirstScalaProject has platform default sourceLevel.
+2017-05-18 14:01:54,285  WARN [Worker-21] - ScalaProject - Project MyFirstScalaProject runs on platform default installation.
+2017-05-18 14:01:55,644  WARN [Worker-16] - ScalaProject - Project MyFirstScalaProject has platform default sourceLevel.
+2017-05-18 14:01:55,644  WARN [Worker-16] - ScalaProject - Project MyFirstScalaProject runs on platform default installation.
+2017-05-18 14:03:01,155  WARN [Worker-22] - ScalaProject - Project MyFirstScalaProject has platform default sourceLevel.
+2017-05-18 14:03:01,155  WARN [Worker-22] - ScalaProject - Project MyFirstScalaProject runs on platform default installation.
+2017-05-18 14:03:02,601  WARN [Worker-23] - ScalaProject - Project MyFirstScalaProject has platform default sourceLevel.
+2017-05-18 14:03:02,601  WARN [Worker-23] - ScalaProject - Project MyFirstScalaProject runs on platform default installation.
+2017-05-18 14:03:31,700 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-05-18 14:03:31,701 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-05-18 14:03:31,701 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-05-18 14:03:37,489 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-05-18 14:03:37,489 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-05-18 14:03:37,489 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2017-05-18 14:03:43,136  WARN [Worker-22] - ScalaProject - Project MyFirstScalaProject has platform default sourceLevel.
+2017-05-18 14:03:43,136  WARN [Worker-22] - ScalaProject - Project MyFirstScalaProject runs on platform default installation.
+2017-05-18 14:03:45,382  WARN [Worker-23] - ScalaProject - Project MyFirstScalaProject has platform default sourceLevel.
+2017-05-18 14:03:45,383  WARN [Worker-23] - ScalaProject - Project MyFirstScalaProject runs on platform default installation.

@@ -1,0 +1,3 @@
+object ttt {
+  println("Welcome to the Scala worksheet")
+}
