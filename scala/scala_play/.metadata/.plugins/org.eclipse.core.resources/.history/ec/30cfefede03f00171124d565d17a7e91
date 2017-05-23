@@ -1,0 +1,16 @@
+package day3
+
+//https://stackoverflow.com/questions/32433561/cant-import-scala-actors-actor-in-intellij-scala-plugin
+
+import scala.io._
+import scala.actors._
+import Actor._
+
+
+object PageLoader {
+  def getPageSize(url : String) = Source.fromURL(url).mkString.length()
+}
+
+class SizerOrigFromBook {
+  
+}

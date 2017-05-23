@@ -2271,3 +2271,161 @@ when weaving
 2017-05-18 14:03:43,136  WARN [Worker-22] - ScalaProject - Project MyFirstScalaProject runs on platform default installation.
 2017-05-18 14:03:45,382  WARN [Worker-23] - ScalaProject - Project MyFirstScalaProject has platform default sourceLevel.
 2017-05-18 14:03:45,383  WARN [Worker-23] - ScalaProject - Project MyFirstScalaProject runs on platform default installation.
+2017-05-23 18:05:29,560 ERROR [main] - System.err - [org.eclipse.jdt.launching] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.launching.JavaRuntime
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2017-05-23 18:05:30,369  WARN [main] - ScalaProject - Project MyFirstScalaProject has platform default sourceLevel.
+2017-05-23 18:05:30,370  WARN [main] - ScalaProject - Project MyFirstScalaProject runs on platform default installation.
+2017-05-23 18:05:30,375  WARN [main] - ScalaProject - Project MyFirstScalaProject has platform default sourceLevel.
+2017-05-23 18:05:30,376  WARN [main] - ScalaProject - Project MyFirstScalaProject runs on platform default installation.
+2017-05-23 18:05:32,780 ERROR [main] - System.err - [org.eclipse.jdt.debug.ui] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.debug.ui.actions.ToggleBreakpointAdapter
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2017-05-23 18:05:32,834 ERROR [main] - System.err - [org.eclipse.jdt.debug] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.debug.core.IJavaHotCodeReplaceListener
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2017-05-23 18:05:35,773  WARN [Worker-4] - ScalaProject - Project TempTest has platform default sourceLevel.
+2017-05-23 18:05:35,774  WARN [Worker-4] - ScalaProject - Project TempTest runs on platform default installation.
+2017-05-23 18:41:36,911  WARN [Worker-24] - ScalaProject - Project MyFirstScalaProject has platform default sourceLevel.
+2017-05-23 18:41:36,911  WARN [Worker-24] - ScalaProject - Project MyFirstScalaProject runs on platform default installation.
+2017-05-23 18:41:36,946  WARN [Worker-24] - ScalaProject - Project MyFirstScalaProject has platform default sourceLevel.
+2017-05-23 18:41:36,946  WARN [Worker-24] - ScalaProject - Project MyFirstScalaProject runs on platform default installation.
+2017-05-23 18:41:46,580  WARN [main] - ScalaProject - Project MyFirstScalaProject has platform default sourceLevel.
+2017-05-23 18:41:46,581  WARN [main] - ScalaProject - Project MyFirstScalaProject runs on platform default installation.
+2017-05-23 18:41:55,037  WARN [main] - ScalaProject - Project MyFirstScalaProject has platform default sourceLevel.
+2017-05-23 18:41:55,038  WARN [main] - ScalaProject - Project MyFirstScalaProject runs on platform default installation.
+2017-05-23 18:41:55,311  WARN [Worker-25] - ScalaProject - Project MyFirstScalaProject has platform default sourceLevel.
+2017-05-23 18:41:55,311  WARN [Worker-25] - ScalaProject - Project MyFirstScalaProject runs on platform default installation.
+2017-05-23 18:42:16,366 ERROR [main] - System.err - [org.eclipse.jdt.junit] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.junit.ui.JUnitQuickFixProcessor
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2017-05-23 18:42:46,409 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Throwable during asyncExec
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:379)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:130)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:105)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:95)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:147)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:963)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:812)
+	at scala.tools.nsc.interactive.Global$$anonfun$getTypedTreeAt$1.apply(Global.scala:842)
+	at scala.tools.nsc.interactive.Global$$anonfun$getTypedTreeAt$1.apply(Global.scala:842)
+	at scala.tools.nsc.interactive.Global$$anonfun$respond$1.apply(Global.scala:701)
+	at scala.tools.nsc.interactive.Global$$anonfun$respond$1.apply(Global.scala:701)
+	at scala.tools.nsc.interactive.Global.respondGradually(Global.scala:708)
+	at scala.tools.nsc.interactive.Global.respond(Global.scala:701)
+	at scala.tools.nsc.interactive.Global.getTypedTreeAt(Global.scala:842)
+	at scala.tools.nsc.interactive.CompilerControl$AskTypeAtItem.apply$mcV$sp(CompilerControl.scala:333)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:506)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:431)
+	at scala.tools.nsc.interactive.Global.checkForMoreWork(Global.scala:520)
+	at scala.tools.nsc.interactive.Global.signalParseProgress(Global.scala:331)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.funDefRest(Parsers.scala:2670)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.funDefOrDcl(Parsers.scala:2627)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.defOrDcl(Parsers.scala:2512)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.nonLocalDefOrDcl(Parsers.scala:2524)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1$$anonfun$applyOrElse$3.apply(Parsers.scala:3087)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1$$anonfun$applyOrElse$3.apply(Parsers.scala:3087)
+	at scala.tools.nsc.doc.ScaladocSyntaxAnalyzer$ScaladocUnitParser.joinComment(ScaladocAnalyzer.scala:259)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1.applyOrElse(Parsers.scala:3087)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStat$1.applyOrElse(Parsers.scala:3082)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.statSeq(Parsers.scala:3014)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateStats(Parsers.scala:3081)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStatSeq$1.apply(Parsers.scala:3068)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$templateStatSeq$1.apply(Parsers.scala:3045)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.checkNoEscapingPlaceholders(Parsers.scala:462)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateStatSeq(Parsers.scala:3045)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateBody(Parsers.scala:2974)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateBodyOpt(Parsers.scala:2981)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.templateOpt(Parsers.scala:2945)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.objectDef(Parsers.scala:2830)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.tmplDef(Parsers.scala:2766)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.topLevelTmplDef(Parsers.scala:2747)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1$$anonfun$applyOrElse$2.apply(Parsers.scala:3037)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1$$anonfun$applyOrElse$2.apply(Parsers.scala:3037)
+	at scala.tools.nsc.doc.ScaladocSyntaxAnalyzer$ScaladocUnitParser.joinComment(ScaladocAnalyzer.scala:259)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1.applyOrElse(Parsers.scala:3037)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$topStat$1.applyOrElse(Parsers.scala:3030)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.statSeq(Parsers.scala:3014)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.topStatSeq(Parsers.scala:3029)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$compilationUnit$1.topstats$1(Parsers.scala:3227)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$compilationUnit$1.topstats$1(Parsers.scala:3219)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$compilationUnit$1.apply(Parsers.scala:3233)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$compilationUnit$1.apply(Parsers.scala:3195)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.checkNoEscapingPlaceholders(Parsers.scala:462)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.compilationUnit(Parsers.scala:3195)
+	at scala.tools.nsc.ast.parser.Parsers$SourceFileParser$$anonfun$parseStartRule$1.apply(Parsers.scala:146)
+	at scala.tools.nsc.ast.parser.Parsers$SourceFileParser$$anonfun$parseStartRule$1.apply(Parsers.scala:146)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$parse$1.apply(Parsers.scala:352)
+	at scala.tools.nsc.ast.parser.Parsers$Parser$$anonfun$parse$1.apply(Parsers.scala:352)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.parseRule(Parsers.scala:345)
+	at scala.tools.nsc.ast.parser.Parsers$Parser.parse(Parsers.scala:352)
+	at scala.tools.nsc.ast.parser.Parsers$UnitParser.smartParse(Parsers.scala:241)
+	at scala.tools.nsc.ast.parser.SyntaxAnalyzer.scala$tools$nsc$ast$parser$SyntaxAnalyzer$$initialUnitBody(SyntaxAnalyzer.scala:87)
+	at scala.tools.nsc.ast.parser.SyntaxAnalyzer$ParserPhase.apply(SyntaxAnalyzer.scala:99)
+	at scala.tools.nsc.Global$GlobalPhase$$anonfun$applyPhase$1.apply$mcV$sp(Global.scala:440)
+	at scala.tools.nsc.Global$GlobalPhase.withCurrentUnit(Global.scala:431)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:440)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2$$anonfun$apply$1.apply(Global.scala:1609)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2$$anonfun$apply$1.apply(Global.scala:1609)
+	at scala.reflect.internal.SymbolTable.enteringPhase(SymbolTable.scala:235)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2.apply(Global.scala:1609)
+	at scala.tools.nsc.Global$Run$$anonfun$compileLate$2.apply(Global.scala:1608)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:893)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1336)
+	at scala.tools.nsc.Global$Run.compileLate(Global.scala:1608)
+	at scala.tools.nsc.interactive.Global.scala$tools$nsc$interactive$Global$$parseAndEnter(Global.scala:658)
+	at scala.tools.nsc.interactive.Global.backgroundCompile(Global.scala:564)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:25)
+2017-05-23 18:43:15,807  WARN [Worker-24] - ScalaProject - Project MyFirstScalaProject has platform default sourceLevel.
+2017-05-23 18:43:15,807  WARN [Worker-24] - ScalaProject - Project MyFirstScalaProject runs on platform default installation.
+2017-05-23 18:46:14,805  WARN [Worker-24] - ScalaProject - Project MyFirstScalaProject has platform default sourceLevel.
+2017-05-23 18:46:14,806  WARN [Worker-24] - ScalaProject - Project MyFirstScalaProject runs on platform default installation.
+2017-05-23 18:52:44,863 ERROR [main] - System.err - [org.eclipse.jdt.launching] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.launching.JavaRuntime
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2017-05-23 18:52:46,469  WARN [Worker-6] - ScalaProject - Project MyFirstScalaProject has platform default sourceLevel.
+2017-05-23 18:52:46,470  WARN [Worker-6] - ScalaProject - Project MyFirstScalaProject runs on platform default installation.
+2017-05-23 18:52:46,474  WARN [Worker-6] - ScalaProject - Project TempTest has platform default sourceLevel.
+2017-05-23 18:52:46,474  WARN [Worker-6] - ScalaProject - Project TempTest runs on platform default installation.
+2017-05-23 18:53:06,692  WARN [main] - ScalaProject - Project MyFirstScalaProject has platform default sourceLevel.
+2017-05-23 18:53:06,693  WARN [main] - ScalaProject - Project MyFirstScalaProject runs on platform default installation.
+2017-05-23 18:53:09,126 ERROR [main] - System.err - [org.eclipse.jdt.debug.ui] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.debug.ui.actions.ToggleBreakpointAdapter
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2017-05-23 18:53:09,174 ERROR [main] - System.err - [org.eclipse.jdt.debug] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.debug.core.IJavaHotCodeReplaceListener
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2017-05-23 18:53:09,809 ERROR [main] - System.err - [org.eclipse.jdt.junit] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.junit.ui.JUnitQuickFixProcessor
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2017-05-23 18:54:55,804  WARN [Worker-2] - ScalaProject - Project MyFirstScalaProject has platform default sourceLevel.
+2017-05-23 18:54:55,804  WARN [Worker-2] - ScalaProject - Project MyFirstScalaProject runs on platform default installation.
+2017-05-23 18:54:55,838  WARN [Worker-2] - ScalaProject - Project MyFirstScalaProject has platform default sourceLevel.
+2017-05-23 18:54:55,839  WARN [Worker-2] - ScalaProject - Project MyFirstScalaProject runs on platform default installation.
+2017-05-23 18:55:02,197  WARN [Worker-2] - ScalaProject - Project MyFirstScalaProject has platform default sourceLevel.
+2017-05-23 18:55:02,197  WARN [Worker-2] - ScalaProject - Project MyFirstScalaProject runs on platform default installation.
+2017-05-23 18:55:23,412  WARN [ModalContext] - ScalaProject - Project sbt_proj has platform default sourceLevel.
+2017-05-23 18:55:23,413  WARN [ModalContext] - ScalaProject - Project sbt_proj runs on platform default installation.
+2017-05-23 18:55:23,429  WARN [ModalContext] - ScalaProject - Project sbt_proj has platform default sourceLevel.
+2017-05-23 18:55:23,429  WARN [ModalContext] - ScalaProject - Project sbt_proj runs on platform default installation.
+2017-05-23 18:55:23,659  WARN [Worker-8] - ScalaProject - Project sbt_proj has platform default sourceLevel.
+2017-05-23 18:55:23,660  WARN [Worker-8] - ScalaProject - Project sbt_proj runs on platform default installation.
+2017-05-23 18:55:23,788  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.sourceLevel was uninitialized for sbt_proj, setting default to 2.11.
