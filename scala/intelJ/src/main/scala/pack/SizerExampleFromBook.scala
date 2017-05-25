@@ -81,7 +81,7 @@ class SizerExampleFromBook {
       _ ! Process()
     }
 
-    //system.awaitTermination()
+    system.awaitTermination()
 
   }
 
