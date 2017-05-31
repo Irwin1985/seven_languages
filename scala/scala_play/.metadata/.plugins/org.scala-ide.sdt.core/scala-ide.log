@@ -1170,3 +1170,18 @@ when weaving
 2017-05-10 14:38:14,012  WARN [Worker-25] - ScalaProject - Project MyFirstScalaProject runs on platform default installation.
 2017-05-10 14:38:15,077  WARN [Worker-27] - ScalaProject - Project MyFirstScalaProject has platform default sourceLevel.
 2017-05-10 14:38:15,077  WARN [Worker-27] - ScalaProject - Project MyFirstScalaProject runs on platform default installation.
+2017-05-22 09:40:10,654 ERROR [main] - System.err - [org.eclipse.jdt.launching] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.launching.JavaRuntime
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2017-05-22 09:40:12,383  WARN [Worker-0] - ScalaProject - Project MyFirstScalaProject has platform default sourceLevel.
+2017-05-22 09:40:12,383  WARN [org.eclipse.jface.text.reconciler.MonoReconciler] - ScalaProject - Project MyFirstScalaProject has platform default sourceLevel.
+2017-05-22 09:40:12,387  WARN [Worker-0] - ScalaProject - Project MyFirstScalaProject runs on platform default installation.
+2017-05-22 09:40:12,387  WARN [org.eclipse.jface.text.reconciler.MonoReconciler] - ScalaProject - Project MyFirstScalaProject runs on platform default installation.
+2017-05-22 09:40:12,391  WARN [org.eclipse.jface.text.reconciler.MonoReconciler] - ScalaProject - Project MyFirstScalaProject has platform default sourceLevel.
+2017-05-22 09:40:12,392  WARN [org.eclipse.jface.text.reconciler.MonoReconciler] - ScalaProject - Project MyFirstScalaProject runs on platform default installation.
+2017-05-22 09:40:13,205  WARN [Worker-6] - ScalaProject - Project MyFirstScalaProject has platform default sourceLevel.
+2017-05-22 09:40:13,206  WARN [Worker-6] - ScalaProject - Project MyFirstScalaProject runs on platform default installation.
+2017-05-22 09:40:13,255  WARN [Worker-6] - ScalaProject - Project MyFirstScalaProject has platform default sourceLevel.
+2017-05-22 09:40:13,256  WARN [Worker-6] - ScalaProject - Project MyFirstScalaProject runs on platform default installation.
