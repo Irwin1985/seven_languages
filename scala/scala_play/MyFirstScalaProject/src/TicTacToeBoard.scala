@@ -1,7 +1,6 @@
 
 
 class TicTacToeBoard() {
-  println("a new TicTacToeBoard is being setup");
   var board = Array(0,0,0,0,0,0,0,0,0);
   
   def getVal(v: Int): String = {
@@ -18,6 +17,7 @@ class TicTacToeBoard() {
   def getPosition(row: Int, col: Int): Int = {
     return (row*3)+col;
   }
+  println("XXX");
   
   def printBoard() {
     println("  A B C");

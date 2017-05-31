@@ -2,13 +2,19 @@ object aaa {;import org.scalaide.worksheet.runtime.library.WorksheetSupport._; d
   println("Welcome to the Scala worksheet");$skip(21); 
   println("TDSFFDS");$skip(39); 
   var aaa = List("ee","fdfdsf","gfdr");System.out.println("""aaa  : List[String] = """ + $show(aaa ));$skip(34); 
-  for ( x <- aaa) {  println(x) };$skip(40); val res$0 = 
+  for ( x <- aaa) {  println(x) };$skip(43); val res$0 = 
   
-  for (i <- List(1,2,3)) yield i * 2;System.out.println("""res0: List[Int] = """ + $show(res$0));$skip(41); 
+  for (i <- List(1,2,3, 4)) yield i * 2;System.out.println("""res0: List[Int] = """ + $show(res$0));$skip(41); 
   
-  var myList = List(11,2,4,65,32,2,3);System.out.println("""myList  : List[Int] = """ + $show(myList ));$skip(60); 
-  var sum = myList.foldLeft(0)((sum, value) => sum + value);System.out.println("""sum  : Int = """ + $show(sum ));$skip(14); val res$1 = 
-  myList.head;System.out.println("""res1: Int = """ + $show(res$1));$skip(109); 
+  var myList = List(11,2,4,65,32,2,3);System.out.println("""myList  : List[Int] = """ + $show(myList ));$skip(73); val res$1 = 
+  myList.foldLeft(0)((sum, value) => {
+  	//println(value)
+  	value
+  });System.out.println("""res1: Int = """ + $show(res$1));$skip(66); 
+  
+  
+  var sum = myList.foldLeft(0)((sum, value) => sum + value);System.out.println("""sum  : Int = """ + $show(sum ));$skip(14); val res$2 = 
+  myList.head;System.out.println("""res2: Int = """ + $show(res$2));$skip(109); 
   
   var max = myList.foldLeft(myList.head)((max, value) => {
   	if (value > max) value
@@ -20,6 +26,13 @@ object aaa {;import org.scalaide.worksheet.runtime.library.WorksheetSupport._; d
   	if (value < min) value
   	else min
   }
-  );System.out.println("""min  : Int = """ + $show(min ))}
+  );System.out.println("""min  : Int = """ + $show(min ));$skip(39); 
   
+  for (i <- List(1,2,3)) println(i);$skip(88); 
+                                                  
+  var strs = List("A","AA","B","11");System.out.println("""strs  : List[String] = """ + $show(strs ));$skip(75); val res$3 = 
+  strs.foldRight("")(    (prev_val, item) => {
+    item + prev_val
+  }
+  );System.out.println("""res3: String = """ + $show(res$3))}
 }

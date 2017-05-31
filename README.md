@@ -14,5 +14,15 @@ https://www.youtube.com/channel/UC9-y-6csu5WGm29I7JiwpnA
 
 https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript
 
+
+Blog of someone going through the book:
+https://www.bennadel.com/blog/2066-seven-languages-in-seven-weeks-io---day-2.htm
+
+
 These look interesting
 
+# Other Lanaugaes
+##Kotlin
+https://blog.jetbrains.com/kotlin/2017/05/kotlin-on-android-now-official/
+https://kotlinlang.org/
+https://agilewombat.com/2016/02/01/scala-vs-kotlin/
