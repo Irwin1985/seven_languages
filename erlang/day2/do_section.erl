@@ -5,6 +5,11 @@
 %--  c(do_section).
 %--  do_section:run().
 
+
+myMatchFn(A,{A,_}) -> true;
+myMatchFn(_,{_,_}) -> false.
+
+
 run() -> 
 	io:fwrite("Start of Day2 do section\n"),
 	
@@ -17,21 +22,22 @@ run() ->
 		{clojure, "Intrested to find out"},
 		{haskell, "One day I will know"}
 	],
-	Match = fun(A,{B,_}) -> 
-		if
-			A == B -> true;
-			true -> false
-		end
-	end,
+	Match = fun(A,B) -> myMatchFn(A,B) end,
 	FindValueFun = fun(L,ItemToSearchFor) -> 
 		{_,A} = hd([X || X <- L, Match(ItemToSearchFor, X)]),
 		A
 	end,
+
+
+	FindValueFun2 = fun(L,ItemToSearchFor) -> 
+		hd([Desc || {Name, Desc} <- L, ItemToSearchFor == Name])
+	end,
+
 	
 	io:fwrite("\n\n"),
 	io:fwrite(FindValueFun(KeywordValues,ruby)),
 	io:fwrite("\n"),
-	io:fwrite(FindValueFun(KeywordValues,erlang)),
+	io:fwrite(FindValueFun2(KeywordValues,erlang)),
 	io:fwrite("\n"),
 	io:fwrite(FindValueFun(KeywordValues,haskell)),
 	io:fwrite("\n"),
@@ -69,6 +75,15 @@ run() ->
 
 	io:fwrite(ListToString(TotaledShoppingList, TotaledItemToString)),
 	io:fwrite("\n"),
+
+	io:fwrite(io_lib:format("Total price ~.2f\n",[
+		lists:foldl(
+			fun({_,B}, SoFar) -> SoFar + B end,
+			0.0,
+			TotaledShoppingList
+		)
+	])),
+
 
 	
 	io:fwrite("End of run\n")
