@@ -1,0 +1,16 @@
+!SESSION 2017-06-02 15:25:34.290 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.scala-ide.sdt.core 1 0 2017-06-02 15:26:34.350
+!MESSAGE Turning on project-specific settings for sbt_proj because of requested Scala Installation change from settings update
+
+!ENTRY org.scala-ide.sdt.core 1 0 2017-06-02 15:26:34.367
+!MESSAGE Adding  -Xsource:2.10 -Ymacro-expand:none to compiler arguments of sbt_proj because of: requested Scala Installation change from settings update
+
+!ENTRY org.scala-ide.sdt.core 2 0 2017-06-02 15:26:34.687
+!MESSAGE Preference scala.compiler.sourceLevel was uninitialized for sbt_proj, setting default to 2.11.

@@ -1,0 +1,16 @@
+object MatchExampleWithDefault {
+  println("Welcome to the Scala worksheet")       //> Welcome to the Scala worksheet
+  
+  
+  var hoursWorked = 50                            //> hoursWorked  : Int = 50
+  var rate = 10                                   //> rate  : Int = 10
+  
+  
+  def earnings(h:Double):Double = {
+  if(h<=40)
+  	h*rate
+  else
+   (h-40)*rate*1.5 + 40*rate
+  }                                               //> earnings: (h: Double)Double
+  
+}

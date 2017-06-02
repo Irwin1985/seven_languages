@@ -1,0 +1,5 @@
+INDEX VERSION 1.129+C:\off_desk\otherGIT\seven_languages\scala\scala_play\.metadata\.plugins\org.eclipse.jdt.core
+354523442.index
+560470250.index
+2633710304.index
+612626902.index

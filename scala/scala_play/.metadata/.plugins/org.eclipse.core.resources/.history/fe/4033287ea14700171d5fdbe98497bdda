@@ -1,0 +1,41 @@
+object Play {
+  println("Welcome to the Scala worksheet")       //> Welcome to the Scala worksheet
+  
+  
+  def testFn(x: String) = println("You Gave " + x)//> testFn: (x: String)Unit
+  testFn("123")                                   //> You Gave 123
+  def testFn2 = testFn("Second")                  //> testFn2: => Unit
+  testFn2                                         //> You Gave Second
+  
+  def secondTestFn(x: String) {
+  	def again(y: String) {
+  		println("Well " + x + " : " + y)
+  	}
+  }                                               //> secondTestFn: (x: String)Unit
+  def a = secondTestFn("A")                       //> a: => Unit
+
+
+  ((x:Int) => x+1)(5)                             //> res0: Int = 6
+  val f = ((x:Int) => x+1)                        //> f  : Int => Int = <function1>
+  f(5)                                            //> res1: Int = 6
+  f.apply(67)                                     //> res2: Int = 68
+  val doubler = (i:Int)=>{i*2}                    //> doubler  : Int => Int = <function1>
+  doubler(5)                                      //> res3: Int = 10
+  def someOperation(f:(Int, Int)=>Int){
+  	println(f(5,5))
+  }                                               //> someOperation: (f: (Int, Int) => Int)Unit
+  val add = (x: Int, y:Int) => x+y                //> add  : (Int, Int) => Int = <function2>
+  someOperation(add)                              //> 10
+  def greeting() = (name:String)=>{"Hello " +
+  name}                                           //> greeting: ()String => String
+  val g = greeting()                              //> g  : String => String = <function1>
+  g("TTT")                                        //> res4: String = Hello TTT
+ 
+  var y = 5                                       //> y  : Int = 5
+  val mutiplier = (x:Int) => x*y                  //> mutiplier  : Int => Int = <function1>
+  mutiplier(4)                                    //> res5: Int = 20
+  
+  
+  1::2::3
+  
+}

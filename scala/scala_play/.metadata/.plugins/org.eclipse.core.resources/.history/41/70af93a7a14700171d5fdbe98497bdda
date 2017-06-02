@@ -1,0 +1,41 @@
+object Play {
+  println("Welcome to the Scala worksheet")
+  
+  
+  def testFn(x: String) = println("You Gave " + x)
+  testFn("123")
+  def testFn2 = testFn("Second")
+  testFn2
+  
+  def secondTestFn(x: String) {
+  	def again(y: String) {
+  		println("Well " + x + " : " + y)
+  	}
+  }
+  def a = secondTestFn("A")
+
+
+  ((x:Int) => x+1)(5)
+  val f = ((x:Int) => x+1)
+  f(5)
+  f.apply(67)
+  val doubler = (i:Int)=>{i*2}
+  doubler(5)
+  def someOperation(f:(Int, Int)=>Int){
+  	println(f(5,5))
+  }
+  val add = (x: Int, y:Int) => x+y
+  someOperation(add)
+  def greeting() = (name:String)=>{"Hello " +
+  name}
+  val g = greeting()
+  g("TTT")
+ 
+  var y = 5
+  val mutiplier = (x:Int) => x*y
+  mutiplier(4)
+  
+  
+  val a = 1 :: Nil
+  
+}

@@ -1,0 +1,235 @@
+2017-06-02 15:26:32,770 ERROR [ModalContext] - System.err - [org.eclipse.jdt.launching] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.launching.JREContainerInitializer
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2017-06-02 15:26:33,359  WARN [ModalContext] - ScalaProject - Project sbt_proj has platform default sourceLevel.
+2017-06-02 15:26:33,359  WARN [ModalContext] - ScalaProject - Project sbt_proj runs on platform default installation.
+2017-06-02 15:26:33,866  WARN [ModalContext] - ScalaProject - Project sbt_proj has platform default sourceLevel.
+2017-06-02 15:26:33,867  WARN [ModalContext] - ScalaProject - Project sbt_proj runs on platform default installation.
+2017-06-02 15:26:34,331  WARN [Worker-15] - ScalaProject - Project sbt_proj has platform default sourceLevel.
+2017-06-02 15:26:34,332  WARN [Worker-15] - ScalaProject - Project sbt_proj runs on platform default installation.
+2017-06-02 15:26:34,688  WARN [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Preference scala.compiler.sourceLevel was uninitialized for sbt_proj, setting default to 2.11.
+2017-06-02 15:27:02,782  WARN [ModalContext] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:27:02,782  WARN [ModalContext] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:27:05,804  WARN [ModalContext] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:27:05,804  WARN [ModalContext] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:27:08,656  WARN [Worker-2] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:27:08,656  WARN [Worker-2] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:27:13,189 ERROR [main] - System.err - [org.eclipse.jdt.debug] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.debug.core.IJavaLineBreakpoint
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2017-06-02 15:27:23,470  WARN [Worker-15] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:27:23,470  WARN [Worker-15] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:27:24,100  WARN [bundle-493-ActorSystem-akka.actor.default-dispatcher-3] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:27:24,100  WARN [bundle-493-ActorSystem-akka.actor.default-dispatcher-3] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:27:26,361  WARN [Worker-3] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:27:26,362  WARN [Worker-3] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:27:53,468  WARN [Worker-9] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:27:53,468  WARN [Worker-9] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:27:54,564  WARN [Worker-11] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:27:54,564  WARN [Worker-11] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:28:01,683  WARN [Worker-2] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:28:01,683  WARN [Worker-2] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:28:02,761  WARN [Worker-6] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:28:02,762  WARN [Worker-6] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:28:23,234  WARN [Worker-11] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:28:23,234  WARN [Worker-11] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:28:24,273  WARN [Worker-0] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:28:24,273  WARN [Worker-0] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:28:29,607  WARN [Worker-2] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:28:29,607  WARN [Worker-2] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:28:30,659  WARN [Worker-8] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:28:30,660  WARN [Worker-8] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:29:40,824  WARN [Worker-13] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:29:40,824  WARN [Worker-13] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:29:41,901  WARN [Worker-8] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:29:41,901  WARN [Worker-8] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:29:54,531  WARN [Worker-2] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:29:54,532  WARN [Worker-2] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:29:55,578  WARN [Worker-4] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:29:55,579  WARN [Worker-4] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:30:08,744  WARN [Worker-8] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:30:08,744  WARN [Worker-8] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:30:09,816  WARN [Worker-13] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:30:09,817  WARN [Worker-13] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:30:15,076  WARN [Worker-15] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:30:15,076  WARN [Worker-15] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:30:16,146  WARN [Worker-4] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:30:16,146  WARN [Worker-4] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:30:36,638  WARN [Worker-13] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:30:36,638  WARN [Worker-13] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:30:37,722  WARN [Worker-13] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:30:37,723  WARN [Worker-13] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:30:44,531  WARN [Worker-4] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:30:44,531  WARN [Worker-4] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:30:45,637  WARN [Worker-15] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:30:45,637  WARN [Worker-15] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:30:54,680  WARN [Worker-0] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:30:54,680  WARN [Worker-0] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:30:55,759  WARN [Worker-16] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:30:55,759  WARN [Worker-16] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:32:12,959  WARN [Worker-0] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:32:12,959  WARN [Worker-0] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:32:14,002  WARN [Worker-16] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:32:14,002  WARN [Worker-16] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:32:23,074  WARN [Worker-16] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:32:23,074  WARN [Worker-16] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:32:24,124  WARN [Worker-13] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:32:24,125  WARN [Worker-13] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:32:33,021  WARN [Worker-12] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:32:33,021  WARN [Worker-12] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:32:36,643  WARN [Worker-0] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:32:36,644  WARN [Worker-0] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:32:37,721  WARN [Worker-0] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:32:37,722  WARN [Worker-0] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:32:52,655  WARN [Worker-18] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:32:52,656  WARN [Worker-18] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:32:53,726  WARN [Worker-16] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:32:53,727  WARN [Worker-16] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:32:59,594  WARN [Worker-19] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:32:59,595  WARN [Worker-19] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:33:00,671  WARN [Worker-17] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:33:00,672  WARN [Worker-17] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:33:06,441  WARN [Worker-17] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:33:06,442  WARN [Worker-17] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:33:07,549  WARN [Worker-18] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:33:07,550  WARN [Worker-18] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:33:37,706  WARN [Worker-12] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:33:37,706  WARN [Worker-12] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:33:38,777  WARN [Worker-19] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:33:38,778  WARN [Worker-19] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:34:45,651  WARN [Worker-18] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:34:45,651  WARN [Worker-18] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:34:50,278  WARN [Worker-16] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:34:50,278  WARN [Worker-16] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:34:55,280  WARN [Worker-0] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:34:55,280  WARN [Worker-0] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:34:56,348  WARN [Worker-18] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:34:56,349  WARN [Worker-18] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:35:08,661  WARN [Worker-17] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:35:08,662  WARN [Worker-17] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:35:09,740  WARN [Worker-0] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:35:09,741  WARN [Worker-0] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:35:40,237  WARN [Worker-7] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:35:40,237  WARN [Worker-7] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:35:41,308  WARN [Worker-18] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:35:41,308  WARN [Worker-18] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:35:50,095  WARN [Worker-16] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:35:50,096  WARN [Worker-16] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:35:51,171  WARN [Worker-24] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:35:51,172  WARN [Worker-24] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:36:44,837  WARN [Worker-18] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:36:44,838  WARN [Worker-18] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:36:45,914  WARN [Worker-16] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:36:45,914  WARN [Worker-16] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:37:00,925  WARN [Worker-12] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:37:00,926  WARN [Worker-12] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:37:01,999  WARN [Worker-25] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:37:02,000  WARN [Worker-25] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:38:21,281  WARN [Worker-23] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:38:21,282  WARN [Worker-23] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:38:22,353  WARN [Worker-17] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:38:22,353  WARN [Worker-17] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:38:31,724  WARN [Worker-13] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:38:31,724  WARN [Worker-13] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:38:32,796  WARN [Worker-23] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:38:32,796  WARN [Worker-23] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:40:33,891  WARN [Worker-13] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:40:33,891  WARN [Worker-13] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:40:34,973  WARN [Worker-28] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:40:34,974  WARN [Worker-28] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:40:58,892  WARN [Worker-13] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:40:58,892  WARN [Worker-13] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:40:59,968  WARN [Worker-29] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:40:59,969  WARN [Worker-29] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:41:07,443  WARN [Worker-30] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:41:07,443  WARN [Worker-30] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:41:08,562  WARN [Worker-29] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:41:08,562  WARN [Worker-29] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:41:10,796  WARN [Worker-27] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:41:10,797  WARN [Worker-27] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:41:11,866  WARN [Worker-28] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:41:11,866  WARN [Worker-28] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:41:12,042  WARN [Worker-28] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:41:12,042  WARN [Worker-28] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:41:13,113  WARN [Worker-27] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:41:13,114  WARN [Worker-27] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:41:21,831  WARN [Worker-30] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:41:21,831  WARN [Worker-30] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:41:25,533  WARN [Worker-17] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:41:25,533  WARN [Worker-17] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:41:26,605  WARN [Worker-30] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:41:26,605  WARN [Worker-30] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:41:27,823  WARN [Worker-28] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:41:27,823  WARN [Worker-28] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:42:08,412  WARN [Worker-32] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:42:08,412  WARN [Worker-32] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:42:09,484  WARN [Worker-32] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:42:09,484  WARN [Worker-32] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:42:17,578  WARN [Worker-27] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:42:17,579  WARN [Worker-27] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:42:18,607  WARN [Worker-29] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:42:18,607  WARN [Worker-29] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:42:37,451  WARN [Worker-31] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:42:37,451  WARN [Worker-31] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:42:38,590  WARN [Worker-17] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:42:38,591  WARN [Worker-17] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:42:45,537  WARN [Worker-33] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:42:45,537  WARN [Worker-33] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:42:46,604  WARN [Worker-17] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:42:46,605  WARN [Worker-17] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:42:48,730  WARN [Worker-33] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:42:48,730  WARN [Worker-33] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:42:49,802  WARN [Worker-31] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:42:49,802  WARN [Worker-31] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:42:57,826  WARN [Worker-27] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:42:57,826  WARN [Worker-27] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:42:58,894  WARN [Worker-13] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:42:58,894  WARN [Worker-13] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:43:03,194  WARN [Worker-33] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:43:03,194  WARN [Worker-33] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:43:16,135  WARN [Worker-33] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:43:16,136  WARN [Worker-33] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:43:17,204  WARN [Worker-34] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:43:17,204  WARN [Worker-34] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:47:08,400  WARN [Worker-32] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:47:08,400  WARN [Worker-32] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:47:09,456  WARN [Worker-32] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:47:09,457  WARN [Worker-32] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:48:08,472  WARN [Worker-35] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:48:08,473  WARN [Worker-35] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:48:09,546  WARN [Worker-32] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:48:09,547  WARN [Worker-32] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:48:31,810  WARN [Worker-17] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:48:31,810  WARN [Worker-17] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:48:37,386  WARN [Worker-33] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:48:37,386  WARN [Worker-33] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:48:57,358  WARN [Worker-17] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:48:57,358  WARN [Worker-17] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:49:06,816  WARN [Worker-17] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:49:06,817  WARN [Worker-17] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:49:12,612  WARN [Worker-36] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:49:12,612  WARN [Worker-36] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:49:20,548  WARN [Worker-32] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:49:20,548  WARN [Worker-32] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:49:21,615  WARN [Worker-33] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:49:21,615  WARN [Worker-33] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:49:29,083  WARN [Worker-32] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:49:29,083  WARN [Worker-32] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:49:30,152  WARN [Worker-17] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:49:30,153  WARN [Worker-17] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:49:47,012  WARN [Worker-36] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:49:47,013  WARN [Worker-36] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:51:44,340  WARN [Worker-35] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:51:44,341  WARN [Worker-35] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:52:09,473  WARN [Worker-36] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:52:09,473  WARN [Worker-36] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:52:10,548  WARN [Worker-39] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:52:10,549  WARN [Worker-39] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:52:13,377  WARN [Worker-17] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:52:13,377  WARN [Worker-17] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
+2017-06-02 15:52:13,528  WARN [Worker-38] - ScalaProject - Project BasicWorksheetPlay has platform default sourceLevel.
+2017-06-02 15:52:13,528  WARN [Worker-38] - ScalaProject - Project BasicWorksheetPlay runs on platform default installation.
