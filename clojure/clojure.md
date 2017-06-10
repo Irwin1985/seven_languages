@@ -10,9 +10,13 @@ https://clojurebridgelondon.github.io/
 https://clojurebridgelondon.github.io/workshop/
 
 
-
+```
 lein new app project
 cd project
 lein run
+```
 
+
+# gitbook
+https://github.com/ClojureBridgeLondon/workshop-content-gitbook
 
