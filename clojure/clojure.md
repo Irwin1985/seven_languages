@@ -18,6 +18,8 @@ lein run
 
 
 # gitbook
+Live: https://rmetcalf9.github.io/seven_languages/
+
 https://github.com/ClojureBridgeLondon/workshop-content-gitbook
 
 Serving local gitbook
