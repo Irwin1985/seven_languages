@@ -10,7 +10,7 @@ https://clojurebridgelondon.github.io/
 https://clojurebridgelondon.github.io/workshop/
 
 
-```
+```bash
 lein new app project
 cd project
 lein run
