@@ -33,6 +33,8 @@ comment - ;
 ```
 
 Making my own one - nif
+
+DID NOT WORK AT ALL
 ```eval-clojure
 (defmacro nif "not if" [cond func] (list(not (if cond func))) )
 
@@ -84,11 +86,41 @@ https://clojuredocs.org/clojure.core/defrecord
 (map cry [Pluto Tweety])
 ```
 
-# Do
+## Do
 
-Implement an unless with an else condition using macros.
+### Implement an unless with an else condition using macros.
 
-Write a type using defrecord that implements a protocol.
+Worked in clojure runtime but NOT in clojure script I don't know whyf
+```eval-clojure
+(defmacro unless [pred a b]
+  `(if (not ~pred) ~a ~b))
+
+(unless false (println "Will print") (println "Will not print"))
+```
+
+
+### Write a type using defrecord that implements a protocol.
+
+https://blog.jayway.com/2013/02/05/learn-clojure-using-records-and-protocols/
+
+
+Protocol is like an interface.
+
+```eval-clojure
+(defprotocol Greet
+  (sayHello [this]))
+
+(defrecord Person [^String firstName ^String lastName]
+  Greet
+  (sayHello [this] (print "Hello, my name is " firstName " " lastName))
+  )
+
+(def robert (Person. "Rob" "Met"))
+
+(sayHello robert)
+
+```
+
 
 ## Util
 

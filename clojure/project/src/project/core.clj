@@ -41,9 +41,19 @@
      (println "\nEnd of Day1")
   )  
 )
+
+
+(defmacro unless [pred a b]
+  `(if (not ~pred) ~a ~b))
+
+
 (defn day2 [] 
   (do
      (println "\n\nStart of Day2")
+     (println "nif")
+     (unless false (println "Will print - false test") (println "Will not print"))
+     (unless true (println "Will NOT print") (println "Will print - true test"))
+
      (println "End of Day2")
   )  
 )
