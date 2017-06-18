@@ -29,7 +29,7 @@
 
 (defn day1 [] 
   (do
-     (println "\n\nStart of Day1")
+     (println "\n\nStart of Day1 XXX")
      (println "\nBig function")
      (test "Less" big ["awesomenessness" 11] true)
      (test "More" big ["awesomenessness" 51] false)
