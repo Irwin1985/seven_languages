@@ -28,6 +28,10 @@ clojure/day1/gitbook$ gitbook serve
 ```
 
 
+
+http://www.4clojure.com/
+
+
 Vids to watch:
 https://www.infoq.com/presentations/Are-We-There-Yet-Rich-Hickey
 https://www.infoq.com/presentations/Simple-Made-Easy
