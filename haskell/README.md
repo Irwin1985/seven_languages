@@ -14,3 +14,11 @@ Run a program: (in gchi)
 factorial
 ````
 
+Compile:
+````
+ghc factorial.hs
+````
+
+Genereates an executable object file
+
+
