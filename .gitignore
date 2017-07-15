@@ -2,4 +2,5 @@
 *.dump
 _book
 node_modules
+*.o
 
