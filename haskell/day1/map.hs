@@ -10,11 +10,11 @@ module Main where
       print ""
 
       print ([(tennessee, mississippi, alabama, georgia, florida) |
-          tennessee <- ["red", "blue", "green"],
-          mississippi <- ["red", "blue", "green"],
-          alabama <- ["red", "blue", "green"],
-          georgia <- ["red", "blue", "green"],
-          florida <- ["red", "blue", "green"],
+          tennessee <- colours,
+          mississippi <- colours,
+          alabama <- colours,
+          georgia <- colours,
+          florida <- colours,
           tennessee /= mississippi,
           tennessee /= alabama,
           tennessee /= georgia,
