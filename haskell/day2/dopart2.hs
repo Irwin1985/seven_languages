@@ -26,11 +26,17 @@ module Main where
       print (take 5 (every8th 5 3))
 
       print ""
-      print "TODO Fn returns half"
+      print "Fn returns half"
+      let half = divideBy 2
+      print (half 6)
+      print (half 66)
 
       print ""
-      print "TODO that adds new line to string"
-
+      print "Fn that adds new line to string"
+      let appendNL = stringAppend "\n"
+      putStr ":"
+      putStr (appendNL "ABV")
+      putStrLn ":"
 
     dollarToNum :: String -> Double
     dollarToNum input = (read (filter (not . (`elem` "$,")) input) :: Double)
@@ -49,3 +55,8 @@ module Main where
 
     every8th x y =
         (zipWith (+) (every3rd x) (every5th y))
+
+    divideBy x y = y / x
+
+
+    stringAppend end str = str ++ end
