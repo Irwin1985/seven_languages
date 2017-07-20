@@ -19,7 +19,12 @@ module Main where
       print (foldr (\x soFar -> appendStrToLastLine x soFar) [""] wordList)
 
       print "Folding into List with new lines if over size:"
-      print (foldr (\x soFar -> if ((length ((last soFar) ++ " " ++ x)) > 10) then ([x] ++ soFar) else (appendStrToLastLine x soFar)) [""] wordList)
+      print (foldr (\x soFar -> 
+        if ((length soFar) == 0) then ([x])
+          else if ((length ((last soFar) ++ " " ++ x)) > 10) 
+            then (soFar ++ [x]) 
+            else (appendStrToLastLine x soFar))
+        [] wordList)
 
 --      print "--TTTe:"
 --      print (foldr (\x soFar -> if (False) then ([x] ++ soFar) else (appendStrToLastLine x soFar)) [""] wordList)
