@@ -27,3 +27,11 @@ Reader
 Writer
 Continuation
 
+
+A monad is a method functinoal composition. (Compositional pattern)
+Monads avoid implicit state.
+Monads are Excplicit side effects
+
+State is threaded around using function arguments. Monad is a way of every function getting it's state variable.
+
+In a programming language like c#, vb or c everything is in one monad
