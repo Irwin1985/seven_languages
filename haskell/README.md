@@ -22,3 +22,5 @@ ghc factorial.hs
 Genereates an executable object file
 
 
+A tutorial
+http://blog.wakatta.jp/blog/2011/11/19/seven-languages-in-seven-weeks-haskell-day-3/
