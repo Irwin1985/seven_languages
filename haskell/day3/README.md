@@ -18,6 +18,7 @@ lookupAge "is type of" DB String  (Maybe Int is the output)
 
 
 List of monads:
+
 | Monad        |
 | ------------ |
 | Identity     |
