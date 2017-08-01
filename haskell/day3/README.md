@@ -18,14 +18,16 @@ lookupAge "is type of" DB String  (Maybe Int is the output)
 
 
 List of monads:
-Identity
-Maybe
-Error
-IO
-State
-Reader
-Writer
-Continuation
+|Monad  |
+|---------|
+|Identity|
+|Maybe|
+|Error|
+|IO|
+|State|
+|Reader|
+|Writer|
+|Continuation|
 
 
 A monad is a method functinoal composition. (Compositional pattern)
@@ -35,3 +37,15 @@ Monads are Excplicit side effects
 State is threaded around using function arguments. Monad is a way of every function getting it's state variable.
 
 In a programming language like c#, vb or c everything is in one monad
+
+
+Notes from: https://www.youtube.com/watch?v=ZhuHCtR3xq8
+>>=   is the bind function
+ - lamda
+
+
+\a->(fa) >>= \a->(ga)
+
+f:a->Ma
+g:a->Ma
+h:a->Ma   (composed funciton)
