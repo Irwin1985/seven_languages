@@ -16,12 +16,15 @@ lookupAge :: DB -> String -> Maybe Int
 
 lookupAge "is type of" DB String  (Maybe Int is the output)
 
+bind operator
+unit operator
 
+\a->(fa) >>= \a->(ga)
 List of monads:
 
-| Monad        |
-| ------------ |
-| Identity     |
+| Monad NAme   | Funciton  |
+| ------------ | --------- |
+| Identity     | Does nothing to input. Just changes it's type from a to Ma |
 | Maybe        |
 | Error        |
 | IO           |
