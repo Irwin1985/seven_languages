@@ -18,16 +18,16 @@ lookupAge "is type of" DB String  (Maybe Int is the output)
 
 
 List of monads:
-|Monad       |
-|------------|
-|Identity    |
-|Maybe       |
-|Error       |
-|IO          |
-|State       |
-|Reader      |
-|Writer      |
-|Continuation|
+| Monad        |
+| ------------ |
+| Identity     |
+| Maybe        |
+| Error        |
+| IO           |
+| State        |
+| Reader       |
+| Writer       |
+| Continuation |
 
 
 A monad is a method functinoal composition. (Compositional pattern)
